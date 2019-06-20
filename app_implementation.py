@@ -6,7 +6,7 @@ from google.cloud import vision
 import io
 import cv2 
 
-Ui_MainWindow, QtBaseClass = uic.loadUiType('C:\\Users\\Dennis\\Documents\\Horizon_Global\\Machine_Learning\\Implementation\\automlvision\\GoogleML.ui')
+Ui_MainWindow, QtBaseClass = uic.loadUiType('C:\\Users\\Dennis\\Documents\\Horizon_Global\\Machine_Learning\\Implementation\\quality_control.ui')
 class MyApp(QMainWindow):
     def __init__(self):
         super(MyApp, self).__init__()
